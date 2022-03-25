@@ -1,0 +1,26 @@
+<!-- ======= Services Section ======= -->
+<section id="services" class="services">
+
+	<div class="section-title">
+		  <h2>Comunicados</h2>
+	</div>
+
+	<div class="container">
+		<div
+			class="row">
+
+			<!-- Primeiro o nome da view (se for nome composto usar underscore)
+							              como ta no drupal e depois o nome do bloco em advance option da view-->
+			{{ drupal_view('comunicados', 'block_comunicados') }}
+
+		</div>
+
+		<br/>
+		<br/>
+		 <div class="d-flex justify-content-center">
+            <a href="/comunicados" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Todos os Comunicados</a>
+        </div>
+	</div>
+
+</section>
+<!-- End Services Section -->

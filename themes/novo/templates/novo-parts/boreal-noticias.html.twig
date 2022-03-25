@@ -1,0 +1,26 @@
+<!-- ======= Clients Section ======= -->
+<section id="clients" class="clients section-bg">
+
+
+    <div class="section-title">
+        <h2>Notícias</h2>
+    </div>
+
+
+	<div class="container">
+		<div class="row">
+
+                <!-- Primeiro o nome da view como ta no drupal e depois o nome do bloco em advance option da view-->
+                {{ drupal_view('noticias', 'completo') }}
+
+		</div>
+        <br/>
+        <br/>
+        <div class="d-flex justify-content-center">
+            <a href="/noticias" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Todas as Notícias</a>
+        </div>
+	</div>
+
+
+</section>
+<!-- End Clients Section -->
